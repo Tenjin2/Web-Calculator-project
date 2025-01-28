@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhruv's Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <input class="display" id="display" readonly>
+        <div class="keys">
+            <button class="orange" onclick="appendondisplay('+')">+</button>
+            <button onclick="appendondisplay('7')">7</button>
+            <button onclick="appendondisplay('8')">8</button>
+            <button onclick="appendondisplay('9')">9</button>
+            <button class="orange" onclick="appendondisplay('-')">-</button>
+            <button onclick="appendondisplay('4')">4</button>
+            <button onclick="appendondisplay('5')">5</button>
+            <button onclick="appendondisplay('6')">6</button>
+            <button class="orange" onclick="appendondisplay('*')">*</button>
+            <button onclick="appendondisplay('1')">1</button>
+            <button onclick="appendondisplay('2')">2</button>
+            <button onclick="appendondisplay('3')">3</button>
+            <button class="orange" onclick="appendondisplay('/')">/</button>
+            <button onclick="appendondisplay('0')">0</button>
+            <button onclick="appendondisplay('.')">.</button>
+            <button onclick="calculate()">=</button>
+            <button class="orange" onclick="cleardisplay()">C</button>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
